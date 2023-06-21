@@ -1,0 +1,51 @@
+
+.connect{
+    height: 30px;
+    margin-right: 15px;
+}
+
+.footer{
+    background: darkgrey;
+    margin-top: 40px;
+}
+
+.footer_section{
+    list-style: none;
+    display: flex;
+    margin-block-start: 0;
+}
+
+.footer_rights{
+    padding: 15px 0;
+    background: gray;
+    text-align: center;
+}
+
+.footer_section>li{
+    flex: 1;
+    padding-right: 1px;
+}
+
+.footer_section li>h3{
+    color: white;
+}
+
+.more_text{
+    color: royalblue;
+    text-decoration: none;
+}
+
+ul ul{
+    margin-block-start: 1rem;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+ul ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul ul li a:hover{
+    color:white;
+}

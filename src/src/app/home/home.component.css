@@ -1,0 +1,111 @@
+
+
+#landing_text{
+overflow: hidden;
+}
+
+.heading{
+    color: #FA8B16;
+    font-size: 5rem;
+    text-shadow: 0px 5px;
+    width: 100vw;
+    text-align: center;
+    padding-bottom: 10px;
+}
+@keyframes flowingLeft{
+    0%{
+        text-indent: -20vw;
+    }
+    100%{
+        text-indent: 0vw;
+    }
+}
+
+@keyframes flowingRight{
+    0%{
+        text-indent: 20vw;
+    }
+    100%{
+        text-indent: 0vw;
+    }
+}
+
+.heading1 {
+    position: absolute;
+    top: 20vh;
+    animation: flowingLeft 1s  ease 1;
+}
+
+
+.heading2 {
+    position: absolute;
+    top: 35vh;
+    animation: flowingRight 1s  ease 1;
+}
+
+.heading3 {
+    position: absolute;
+    top: 50vh;
+    animation: flowingLeft 1s  ease 1;
+}
+
+.heading4 {
+    position: absolute;
+    top: 65vh;
+    animation: flowingRight 1s  ease 1;
+}
+
+.welcome_container{
+    background-color: black;
+    color: white;
+    height: 35em;
+    width: 100vw;
+}
+
+#welcome{
+ width: 50%;
+ height: 35rem;
+ padding: 10px;
+ 
+}
+
+.welcome{
+    display: inline-block;
+vertical-align:middle;
+text-align: center;
+width: 50%;
+
+}
+
+.home{
+    text-align: center;
+    width: 100vw;
+}
+
+.home_container{
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+    /* top: -230px; */
+    color: black;
+}
+
+
+
+.home img{
+    width: 88.9em;
+    height: 30em;
+}
+
+.button{
+    background-color: white;
+    color: coral;
+    border: 1px solid coral;
+}
+
+.button:hover{
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    border: 1px solid black;
+}

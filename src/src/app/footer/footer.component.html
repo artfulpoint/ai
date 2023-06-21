@@ -1,0 +1,52 @@
+<div class="footer">
+    <ul class="footer_section">
+        <li>
+            <p>Our aim to provide Best Solutions for IT Industry and always understands the needs of potential customer to
+            build a successful business and deliver the service on time
+            <a class="more_text" routerLink="/about" (click)="onClick($event)">read more</a>
+            </p> 
+        </li>
+        <li>
+            <h3>Our Services</h3>
+            <ul>
+                <li>
+                    <a href="">IT Service Management</a>
+                </li>
+                <li>
+                    <a href="">Custom Application Development</a>
+                </li>
+                <li>
+                    <a href="">Resource Management</a>
+                </li>
+                <li>
+                    <a href="">Software Testing</a>
+                </li>
+                <li>
+                    <a href="">Security Management & Compliance Auditing</a>
+                </li>
+                <li>
+                    <a href="">Business Continuity Management</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>Reach us</h3>
+            <div><strong>Address: </strong>90, Mehrauli-Gurgaon Rd, Industrial Development Area, Sector 16, Gurugram, Haryana 122007</div>
+            <div><strong>Email: </strong>abc@abc.co.in</div>
+            <div><strong>Tel: </strong>12345</div>
+        </li>
+        <li>
+            <h3>Connect with us</h3>
+            <a class="link" href="">
+                <img class="connect" [src]=facebookPath alt="" (mouseenter)="facebook_in()" (mouseleave)="facebook_out()">
+            </a>
+            <a class="link" href="">
+                <img class="connect" [src]=twitterPath alt="" (mouseover)="twitter_in()" (mouseleave)="twitter_out()">
+            </a>
+            <a class="link" href="">
+                <img class="connect" [src]=linkedInPath alt="" (mouseover)="linkedIn_in()" (mouseleave)="linkedIn_out()">
+            </a>
+        </li>
+    </ul>
+    <div class="footer_rights">2023 &copy; FridayAI - All rights reserved</div>
+</div>
