@@ -1,0 +1,43 @@
+
+#logo{
+    width:200px;
+    height: 50px;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-list{
+    display: inline-flex;
+    list-style: none;
+    width: 80vw;
+    justify-content: end;
+}
+
+.header-list li{
+    margin-left:1%;
+}
+
+.navigation{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+.navigation li a{
+    text-decoration: none;
+    padding: 5px 15px
+}
+
+.navigation>li:last-child{
+margin-right: 70px;
+}
+
+.active{
+    color: #171941;
+    text-shadow: 1px 1px#ec250d;
+}
